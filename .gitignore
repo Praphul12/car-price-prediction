@@ -1,0 +1,91 @@
+# =========================
+# Python / FastAPI
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.env
+.env.*
+venv/
+.venv/
+env/
+ENV/
+pip-wheel-metadata/
+*.egg-info/
+dist/
+build/
+
+# =========================
+# ML / Data Science
+# =========================
+data/
+datasets/
+raw_data/
+processed_data/
+*.csv
+*.tsv
+*.parquet
+*.h5
+*.pkl
+*.joblib
+*.npy
+*.npz
+
+# =========================
+# Trained Models
+# =========================
+models/
+checkpoints/
+weights/
+*.onnx
+*.pt
+*.pth
+*.sav
+
+# =========================
+# Logs & Experiments
+# =========================
+logs/
+mlruns/
+wandb/
+tensorboard/
+runs/
+
+# =========================
+# FastAPI / Uvicorn
+# =========================
+*.log
+uvicorn.log
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Tests / Coverage
+# =========================
+.coverage
+htmlcov/
+.pytest_cache/
+
+# =========================
+# Docker
+# =========================
+*.pid
+docker-data/
